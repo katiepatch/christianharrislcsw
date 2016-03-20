@@ -1,0 +1,149 @@
+body {
+  background-color: #f7f7f7;
+}
+
+p, h1, h2, h3, h4, h5 {
+  color: gray;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+  font-size: 13px;
+}
+
+h1, h2, h3, h4, h5, h6,
+.navbar-brand,
+.nav a,
+label,
+.btn {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.main {
+  background-color: #FFF;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.address {
+  margin-top: 15px;
+  font-size: 11px;
+  margin-bottom: 0px;
+}
+
+.address-right {
+  margin-top: 30px;
+}
+
+.navbar2 {
+  margin-top: -21px;
+  margin-bottom: 0;
+}
+
+.navbar,
+.navbar2 {
+  background-image: none;
+  box-shadow: none;
+  border: 1px solid #FFF;
+  background-color: #FFF;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.open>a {
+  background-image: none;
+  background-color: #FFF;
+  border: none;
+  box-shadow: none;
+  color: #a5be33;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:active,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:active {
+  background-color: none;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.navbar-default .navbar-brand {
+   color: #222;
+}
+
+.navbar-header {
+  margin-bottom: 30px;
+}
+
+.right {
+  text-align: right;
+}
+
+.tagline {
+  display: inline;
+}
+
+.pic {
+
+}
+.pic img {
+  max-height: 220px;
+  padding: 15px;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid lightgray;
+}
+
+label {
+  color: gray;
+  font-weight: 300;
+}
+
+.btn {
+  border-radius: 0;
+  background-image: none;
+}
+
+.btn-site {
+  background-color: #a5be33;
+  color: #FFF;
+  font-weight: 500;
+}
+
+.btn-site:hover,
+.btn-site:focus,
+.btn-site:active {
+  color: #F3F3F3;
+}
+
+.map {
+  position: relative;
+  padding-bottom: 56.25%;
+  margin-top: 15px;
+  height: 0;
+  overflow: hidden;
+}
+
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.details {
+  height: 39px;
+  line-height: 39px;
+}
+
+.banner-image img {
+  margin-bottom: 30px;
+}
