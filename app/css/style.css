@@ -63,7 +63,8 @@ label,
 .navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:active {
-  background-color: none;
+  background-color: #FFF;
+  color: #a5be33;
 }
 
 .navbar-brand {
