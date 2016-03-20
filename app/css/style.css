@@ -6,7 +6,7 @@ p, h1, h2, h3, h4, h5 {
   color: gray;
 }
 
-p {
+p, a.details {
   font-family: 'Playfair Display', serif;
   font-size: 13px;
 }
@@ -65,6 +65,20 @@ label,
 .navbar-default .navbar-nav>.open>a:active {
   background-color: #FFF;
   color: #a5be33;
+}
+
+.address a, a.details {
+  color: #a5be33;
+}
+
+.address a:hover,
+.address a:focus,
+.address a:active,
+a.details:hover,
+a.details:focus,
+a.details:active {
+  color: #7e9514;
+  text-decoration: none;
 }
 
 .navbar-brand {
@@ -140,7 +154,8 @@ label {
   height: 100%;
 }
 
-.details {
+.details,
+a.details {
   height: 39px;
   line-height: 39px;
 }
