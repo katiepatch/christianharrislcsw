@@ -1,5 +1,5 @@
 body {
-  background-color: #f7f7f7;
+  background-color: #fff;
 }
 
 p, h1, h2, h3, h4, h5 {
@@ -21,7 +21,7 @@ label,
 
 .main {
   background-color: #FFF;
-  padding: 30px;
+  padding: 15px 0px 30px 0px;
   margin-bottom: 30px;
 }
 
@@ -67,6 +67,10 @@ label,
   color: #a5be33;
 }
 
+.navbar-brand {
+  padding-left: 0px;
+}
+
 .address a, a.details {
   color: #a5be33;
 }
@@ -102,12 +106,15 @@ a.details:active {
   display: inline;
 }
 
-.pic {
-
-}
-.pic img {
+.pic img{
   max-height: 220px;
-  padding: 15px;
+  padding: 0px 0px 15px 15px;
+}
+.banner-image {
+  max-height: 200px;
+  overflow: hidden;
+  background-size: cover;
+  margin-bottom: 30px;
 }
 
 input, textarea {
@@ -162,4 +169,37 @@ a.details {
 
 .banner-image img {
   margin-bottom: 30px;
+  width: 100%;
+}
+
+footer {
+  background-color: #f7f7f7;
+  padding: 30px 0px;
+}
+
+@media (min-width: 768px) {
+  .navbar-collapse {
+    padding-left: 0px;
+  }
+  .navbar-nav>li>a.first-link {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .navbar-default .navbar-nav>li>a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 30px;
+  }
+  .main {
+    padding-top: 0px;
+  }
+  .navbar-header {
+    margin-bottom: 0px;
+  }
 }
